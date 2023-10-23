@@ -39,7 +39,7 @@ public class Bosu {
 		  
 		  int okkazu = 0;
 		  
-		  if(ansewear.equals("スピード")) {
+		  if(ansewear0.equals("スピード")) {
 			  System.out.println("ok");
 			  bosHp += -20;
 		  }else {
@@ -47,8 +47,39 @@ public class Bosu {
 			  System.out.println("ng");
 		  }
 		  System.out.println("kou = " + bosHp + "ボスHp="+bosHp);
-	
+		  System.out.println("第三問　バスに8人のっていました。そのうち3人おりました。残りは何人ですか");
+		  System.out.println("ここから入力せよ");
 		  
+		  String ansewear1 = acan.next();
+		  
+		  int okkazu1 = 0;
+		  
+		  if(ansewear1.equals("4人")) {
+			  System.out.println("ok");
+			  bosHp += -20;
+		  }else {
+			  kouHp += -20;
+			  System.out.println("ng");
+		  
+		  System.out.println("kou = " + bosHp + "ボスHp=" +bosHp);
+		  System.out.println("第四問　今何時");
+		  System.out.println("ここから入力せよ");
+		  
+		  String ansewear2 = acan.next();
+		  
+		  int okkazu2 = 0;
+		  
+		  if (ansewear2.equals("2文字"));
+		  System.out.println("ok");
+		  bosHp += -20;
+		  } 
+		  kouHp += -20;
+		  System.out.println("ng");
+		  
+		  System.out.println("kou = " + bosHp + "ボスHp=" +bosHp);
+		  }
+	
+	{  
 	}
 	
 
