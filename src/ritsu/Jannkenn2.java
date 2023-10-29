@@ -4,6 +4,9 @@ public class Jannkenn2 {
 	
 	public void play() {
 		System.out.println("****じゃんけん****");
+		System.out.println("三回勝負");
+		
+		
 		
 		
 		
@@ -25,20 +28,23 @@ public class Jannkenn2 {
 		if(userHand == cpuHand) {
 			System.out.println("あいこ");
 			continue;
-		}else if ((userHand == 1 &&  cpuHand == 2)
-		    ||       (userHand == 2 && cpuHand == 3)
-		    ||      (userHand == 3 && cpuHand == 1)) {
-			System.out.println("ユーザーのかち");
+			
+		}else if 	((userHand == 1 &&  cpuHand == 2)
+		  ||           (userHand == 2 && cpuHand == 3)
+		  ||         (userHand == 3 && cpuHand == 1)) {
+            } else if (userHand >= 3) {
+			System.out.println("ゲーム終了ユーザーのかち");
 			break;
-		}else if ((userHand == 1 && cpuHand == 3)
+	} else if ((userHand == 1 && cpuHand == 3)
 			||	(userHand == 2 && cpuHand == 1)
-			||  (userHand == 3 && cpuHand == 2)) {
-			System.out.println("ユーザーの負け");
-			break;
-		}
+			||  (userHand == 3 && cpuHand == 2))  {
+		     	} else if (userHand >=3) {
+		System.out.println("ゲーム終了CPUのかち");
+		break;
 	}
-	}
-
+}
+}
+		
 	
 	private String getHandMoji(int hand) {
 		if (hand == 1) {
