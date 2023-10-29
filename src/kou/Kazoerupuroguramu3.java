@@ -1,6 +1,6 @@
 package kou;
 
-public class Kazoerupuroguramu {
+public class Kazoerupuroguramu3 {
 	public static void main(String[] sarg) {
 		String daiji0 = "明日新しいノート買う 1日目";
 		String daiji1 = "明日新しいノート買う 2日目";
