@@ -19,6 +19,7 @@ public class Bosu {
 		  
 		  
 		  //int num = acan.nextInt();
+		  
 		  String ansewear = acan.next();
 		  
 		  int okKazu = 0;
