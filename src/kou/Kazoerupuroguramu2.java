@@ -5,7 +5,8 @@ public class Kazoerupuroguramu2 {
 		String daiji = "明日新しいノート買う!";
 		
 		for(int i=0;i<2;i++) {
-			System.out.println(daiji);
+			
+		System.out.println(daiji);
 		}
 	
 	
