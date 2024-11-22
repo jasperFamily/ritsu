@@ -30,7 +30,7 @@ public class Bosu {
 		  }else {
 			  kouHp += -20;
 			  System.out.println("ng");
-		  }
+		  }																							
 		  
 		  System.out.println("kou = " + bosHp + "ボスHP="+bosHp);
 		  System.out.println("第二問　とらっくでりんごとバナナを積んだひとがいました。道を曲がるときになにをおとしたでしょう");
